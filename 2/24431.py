@@ -11,6 +11,7 @@ for _ in range(t):
     i = 0
     while i < n - 1:
         if words[i][:f] == words[i + 1][:f]:
+            # words[i][-f:]
             count += 1
             i += 1
         i += 1
